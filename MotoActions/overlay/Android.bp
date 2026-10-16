@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 The LineageOS Project
+// SPDX-FileCopyrightText: The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
@@ -7,5 +7,13 @@ phony {
     name: "MotoCommonOverlay",
     required: [
         "FrameworksResMotoCommon",
+    ]
+}
+
+phony {
+    name: "MotoEuicc",
+    required: [
+        "EuiccPolicy",
+        "EuiccPolicyMoto",
     ]
 }
